@@ -1,0 +1,50 @@
+<html>
+    <head>
+
+        <title>Animal Sound Identification Web App</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    </head>
+
+    <body>
+        <center>
+            <div id="heading">
+            <h1 id="heading" c> Animal Sound Identifier</h1>
+             <h4>Play different animal sounds such as meowing of cat, barking of dog or mooing of cow</h4>
+            </div>
+             
+             
+
+           <div id="div">
+            <br>
+            <br>
+            <button id="start_button" class="btn btn-info" onclick="start()">START</button>
+           <br>
+           <h3 id="result"></h3>
+           <br>
+           <h3 id="accuracy"></h3>
+           <br>
+           <img id="listener" width="500px" height="500px" src="Ear1.webp">
+           <br>
+           <br>
+           <br>
+        </div>
+        <br>
+        <h4 id="footer"> Devoloped by Aayan Munagekar</h4>
+            
+        </center>
+        <script src="main.js"></script>
+    </body>
+    
+</html>
